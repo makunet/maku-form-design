@@ -1,0 +1,39 @@
+{
+  "name": "maku-form-design",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "lint": "eslint --fix --ext .vue,.js,.jsx,.ts,.tsx ."
+  },
+  "dependencies": {
+    "vue": "3.2.37",
+    "element-plus": "2.2.25",
+    "pinia": "2.0.16"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.41",
+    "@vitejs/plugin-vue": "3.0.3",
+    "@vue/tsconfig": "0.1.3",
+    "@vue/compiler-sfc": "3.2.37",
+    "@vue/eslint-config-prettier": "7.0.0",
+    "@vue/eslint-config-typescript": "10.0.0",
+    "eslint-plugin-vue": "8.6.0",
+    "eslint": "8.13.0",
+    "prettier": "2.6.2",
+    "sass": "1.50.1",
+    "typescript": "4.7.4",
+    "vite": "3.1.8",
+    "vite-plugin-svg-icons": "2.0.1",
+    "vue-tsc": "0.37.3"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vuejs",
+    "vite",
+    "element-plus",
+    "maku-form-design"
+  ],
+  "license": "MIT"
+}
