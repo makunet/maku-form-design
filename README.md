@@ -12,6 +12,31 @@ npm install maku-form-design
 declare module 'maku-form-design'
 ```
 
+## main.ts，如下所示：
+
+```typescript
+import { createApp } from 'vue'
+import ElementPlus from 'element-plus'
+import App from './App.vue'
+import MakuFormDesign from 'maku-form-design'
+import 'maku-form-design/lib/style.css'
+
+const app = createApp(App)
+// 需要安装element-plus
+app.use(ElementPlus)
+// 使用表单设计器
+app.use(MakuFormDesign)
+app.mount('#app')
+```
+
+
+## 使用方式
+```html
+<template>
+  <DesignForm />
+</template>
+```
+
 ## 微信交流群
 为了更好的交流，我们新提供了微信交流群，需扫描下面的二维码，关注公众号，回复【加群】，根据提示信息，作者会拉你进群的，感谢配合！
 
