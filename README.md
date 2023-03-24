@@ -12,7 +12,7 @@ npm install maku-form-design
 declare module 'maku-form-design'
 ```
 
-## main.ts，如下所示：
+## main.ts
 
 ```typescript
 import { createApp } from 'vue'
