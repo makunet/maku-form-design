@@ -12,7 +12,7 @@ npm install maku-form-design
 declare module 'maku-form-design'
 ```
 
-## main.ts
+## 引入
 
 ```typescript
 import { createApp } from 'vue'
@@ -30,7 +30,7 @@ app.mount('#app')
 ```
 
 
-## 使用方式
+## 使用
 ```html
 <template>
   <DesignForm />
