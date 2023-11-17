@@ -1,6 +1,6 @@
 {
   "name": "maku-form-design",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "基于vue3、element-plus开发的表单设计器，主要用于低代码平台。",
   "homepage": "https://maku.net",
   "author": "阿沐",
@@ -10,8 +10,10 @@
     "lint": "eslint --fix --ext .vue,.js,.jsx,.ts,.tsx ."
   },
   "dependencies": {
-    "element-plus": "^2.2.31",
-    "maku-form-design": "1.0.2",
+    "element-plus": "2.4.2",
+    "maku-form-design": "1.1.0",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^5.1.12",
     "vue": "^3.2.47"
   },
   "devDependencies": {
